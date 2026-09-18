@@ -1,16 +1,52 @@
-# React + Vite
+# ShopEase - React E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive e-commerce shopping website built using React.js, JavaScript, HTML5, and CSS3.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Coming soon...
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Product browsing
+- Product search
+- Category-based filtering
+- Shopping cart
+- Increase/decrease product quantity
+- Remove products from cart
+- Automatic cart total calculation
+- Wishlist functionality
+- Add wishlist products to cart
+- LocalStorage data persistence
+- Product count based on search/filter results
+- Add-to-cart feedback
+- Responsive design for desktop, tablet, and mobile
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- LocalStorage
+- Git & GitHub
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Cart.jsx
+│   ├── Navbar.jsx
+│   ├── ProductCard.jsx
+│   ├── ProductList.jsx
+│   └── Wishlist.jsx
+│
+├── data/
+│   └── products.js
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
